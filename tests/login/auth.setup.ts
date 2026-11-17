@@ -1,6 +1,6 @@
 import {test as setup, expect} from "@playwright/test"
 import userData from "../../test-data/login.json"
-export const authfile = "D:\\Playwright_test\\.auth\\user.json"
+export const authfile = ".\\.auth\\user.json"
 setup("Login", async ({page}) => {
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
     //await page.pause();
