@@ -1,5 +1,5 @@
 import {test, expect} from "@playwright/test"
-import userData from "../test-data/login.json" with {type : 'json'}
+//import userData from "../test-data/login.json" with {type : 'json'}
 
 test.describe("Login Test", ()=>{
     test("Login", async ({page}) => {

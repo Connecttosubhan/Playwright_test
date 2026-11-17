@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-export const storage_state = 'D://Playwright_test//.auth//user.json';
+export const storage_state = "./.auth/user.json"
 
 /**
  * Read environment variables from file.
